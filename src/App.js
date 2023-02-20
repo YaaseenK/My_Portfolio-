@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 import { Header} from "./components/Header/header"
 import { NavBar } from "./components/Navigation/Navbar";
-import { Skills } from "./components/Project/skills";
+import { Skills } from "./components/Skills/skills";
 import { Projects } from "./components/Project/projects";
-import { Contact } from "./components/Project/contact";
+import { Contact } from "./components/Contact/contact";
+import { Footer } from "./components/Footer/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />        
       </header>
     </div>
   );
