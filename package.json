@@ -2,6 +2,7 @@
   "name": "w20_my_meact_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yaaseenk.github.io/My_Portfolio-/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
