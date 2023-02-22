@@ -67,9 +67,9 @@ export const NavBar = () => {
                 
                   <span className='navbar-text'>
                     <div className='social-icons'>
-                      <a href="#"><img src={navIcon1} alt="" /></a>
-                      <a href="#"><img src={navIcon2} alt="" /></a>
-                      <a href="#"><img src={navIcon3} alt="" /></a>
+                      <a href="https://profile.indeed.com/?hl=en_CA&co=CA&from=gnav-homepage"><img src={navIcon1} alt="" /></a>
+                      <a href="https://www.instagram.com/alertflow/"><img src={navIcon2} alt="" /></a>
+                      <a href="https://www.youtube.com/channel/UCI6MrqNbUOWm_xO1D3J1jbg"><img src={navIcon3} alt="" /></a>
                     </div>
                     <HashLink to='#connect'>
                       <button className="vvd">
