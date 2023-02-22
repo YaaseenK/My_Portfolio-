@@ -3,9 +3,8 @@ import meter2 from "../../assets/img/skills/meter2.svg";
 import meter3 from "../../assets/img/skills/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../../assets/img/skills/arrow1.svg";
-import arrow2 from "../../assets/img/skills/arrow2.svg";
 import colorSharp from "../../assets/img/skills/color-sharp.png"
+import { Container, Row, Col } from "react-bootstrap";
 
 export const Skills = () => {
     const responsive = {
@@ -30,9 +29,9 @@ export const Skills = () => {
     
     return (
         <section className="skill" id="skills">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
+            <Container>
+                <Row className="aligh-items-center">
+                    <Col xs={12} md={12} xl={14}>
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
@@ -55,9 +54,9 @@ export const Skills = () => {
                                 </div>
                             </Carousel>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
             <img className="background-image-left" src={colorSharp} alt="Image" />
         </section>
     )
